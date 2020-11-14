@@ -38,7 +38,7 @@ while True:
         time.sleep(TIME_DELAY)
     except:
         message = f'Сервис недоступен.\
-             Повторю попытку через {TIME_DELAY} секунд'
+        Повторю попытку через {TIME_DELAY} секунд'
         logging.error(message)
         send_sms(message)
         time.sleep(TIME_DELAY)
